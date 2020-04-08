@@ -1,0 +1,30 @@
+{
+  "name": "democracy-works-upcoming-elections-practical-exercise",
+  "version": "1.0.0",
+  "description": "democracy work coding exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulsobers23/Democracy-Works-Upcoming-Elections-Practical-Exercise.git"
+  },
+  "author": "Paul S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulsobers23/Democracy-Works-Upcoming-Elections-Practical-Exercise/issues"
+  },
+  "homepage": "https://github.com/paulsobers23/Democracy-Works-Upcoming-Elections-Practical-Exercise#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
