@@ -20,7 +20,7 @@ app.set('view engine', 'ejs');
 
 // Render the address ejs file with the states abbreviations from file us_state.js
 app.get('/', (req, res) => {
-  res.render('address', { states: postalAbbreviations, electionData: undefined });
+  res.render('address', { states: postalAbbreviations, electionData: [] });
 });
 
 
