@@ -6,7 +6,7 @@ const postalAbbreviations = require('./us_state');
 
 const getElectionsByLocation = require('./models/index.js');
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 const app = express();
 
