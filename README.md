@@ -1,7 +1,7 @@
 # Democracy-Works-Upcoming-Elections-Practical-Exercise
 
 **Overview**
-A user is presented with an address form and based on sumbission a user should see upcoming election information if available. 
+A user is presented with an address form and based on submission a user should see upcoming election information if available. 
 
 **Templates**: I decided to use ejs to build a single web app page for easy accessibility for the user, just in case they wanted to submit again.
 
