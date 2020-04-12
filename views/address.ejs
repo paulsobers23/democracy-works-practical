@@ -57,10 +57,8 @@
         <h3>Description: <%= info.description %></h2>
         <a href="<%= info.url %>">Url for voters search information</a>
       <% } %>
-    <% } %> 
-    
-    <% if(electionData.length === 0) { %>
-      <p><%= "If the page refresh after you hit submit and it did not show that means there was no results." %> </p>
+    <% } else if(electionData.length < 0){ %>
+    <p><%= "Sorry they're no upcoming elections" %> </p>
     <% } %>
 
     

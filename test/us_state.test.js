@@ -1,5 +1,5 @@
-const postalAbbreviations = require('./us_state.js');
+const postalAbbreviations = require('../us_state.js');
 
 test('postalAbbreviations', () => {
-  expect(postalAbbreviations.length).toEqual(61);
+  expect(postalAbbreviations.length).toBe(61);
 });

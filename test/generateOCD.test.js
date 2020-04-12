@@ -1,9 +1,10 @@
 const generateOcdId = require('../models/Ocd');
 
-const stateOCD = 'ocd-division/country:us/state:fl';
-const placeOCD = 'ocd-division/country:us/state:fl/place:havana';
+const stateOCD = 'FL';
+const placeOCD =  'Havana';
 
-
-test('generateOcdId', (state, place) => {
-  expect(generateOcdId(stateOCD, placeOCD)).toMatch('ocd-division/country:us/state:fl/place:havana');
+test('generateOcdId', () => {
+  const ocdId = generateOcdId(stateOCD,placeOCD);
+  
+  expect(ocdId).toBe('ocd-division/country:us/state:fl/place:havana');
 });

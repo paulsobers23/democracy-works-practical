@@ -1,8 +1,11 @@
 # Democracy-Works-Upcoming-Elections-Practical-Exercise
 
+**Overview**
+A user is presented with an address form and based on sumbission a user should see upcoming election information if available. 
+
 **Templates**: I decided to use ejs to build a single web app page for easy accessibility for the user, just in case they wanted to submit again.
 
-**Testing**: I installed Jest for testing but because of time, I didn't finish. I will complete the tests for final production. ``npm run test`` if you would still like to see.
+**Testing**: I installed Jest for testing. ``npm run test`` if you would still like to see.
 
 If you want to run it locally, clone this repository and run ``npm install``. Then, run ``npm start`` or ``node app.js``.
 
