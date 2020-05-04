@@ -50,18 +50,18 @@
   
   
   <section id = "elections">
-    <% if (electionData) { %>
-      <% for(let info of electionData) { %>
+  <% if(!electionData){ %>
+    <p><%= "Fill out form to see elections" %> </p>
+  <% }  else if(electionData.length === 0){ %>
+        <p><%= "There are no upcoming elections avaiable" %> </p>
+    <% } else { %>
+        <% for(let info of electionData) { %>
         <h3>Date: <%= info.date %></h1>
         <h3>Type of Election: <%= info.type %></h2>
         <h3>Description: <%= info.description %></h2>
         <a href="<%= info.url %>">Url for voters search information</a>
       <% } %>
-    <% } else if(electionData.length < 0){ %>
-    <p><%= "Sorry they're no upcoming elections" %> </p>
     <% } %>
-
-    
     
   </section>
   
